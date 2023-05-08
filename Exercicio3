@@ -1,0 +1,14 @@
+const numeros2 = [15, -10, 13, -19, 78, -33];
+const positivos = numeros2.filter((numero) => {
+    return numero >= 0;
+  });
+console.log(positivos)
+
+//exercicio4
+const numeros3 = [15, 10, 13, 19, 78, 33];
+multiplicados = [];
+
+for (let i=0 ; i<numeros3.length; i++){
+    multiplicados[i] = numeros3[i] * 2;
+}
+console.log(multiplicados)
